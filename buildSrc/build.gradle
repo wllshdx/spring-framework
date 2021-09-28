@@ -3,8 +3,12 @@ plugins {
 }
 
 repositories {
-	mavenCentral()
-	gradlePluginPortal()
+    maven { url "https://maven.aliyun.com/nexus/content/groups/public" }
+    maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+    maven { url 'https://maven.aliyun.com/repository/google' }
+    maven { url 'https://maven.aliyun.com/repository/jcenter' }
+    mavenCentral()
+    gradlePluginPortal()
 }
 
 dependencies {

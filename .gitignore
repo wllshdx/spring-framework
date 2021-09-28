@@ -41,3 +41,7 @@ out
 test-output
 atlassian-ide-plugin.xml
 .gradletasknamecache
+/build/
+/wll-source-study/build/
+
+/gradle/wrapper/gradle-5.6.4-all.zip
