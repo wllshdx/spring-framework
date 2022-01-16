@@ -20,6 +20,7 @@ dependencies {
     compile(project(":spring-beans"))
     compile(project(":spring-core"))
     compile(project(":spring-aop"))
+    implementation('org.aspectj:aspectjrt:1.9.6')
 //    // lombok依赖
 //    annotationProcessor 'org.projectlombok:lombok:1.18.2'
 //    compileOnly 'org.projectlombok:lombok:1.18.2'
